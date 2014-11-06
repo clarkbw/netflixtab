@@ -1,0 +1,17 @@
+{
+  "title": "Netflix Tab",
+  "name": "netflixtab",
+  "id": "netflixtab@jetpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Bryan Clark",
+  "engines": {
+    "firefox": ">=33.0a1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "about-what": "1.0.0",
+    "data-collection": "^1.1.5"
+  }
+}

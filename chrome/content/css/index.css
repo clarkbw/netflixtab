@@ -1,0 +1,86 @@
+@font-face{
+  font-family: 'FiraLight';
+  src: url('../fonts/FiraSansOT-Light.otf') format("opentype");
+}
+
+@font-face{
+  font-family: 'FiraRegular';
+  src: url('../fonts/FiraSansOT-Regular.otf') format("opentype");
+}
+
+@font-face{
+  font-family: 'ClearSans';
+  src: url('../fonts/ClearSans-Regular.ttf');
+}
+
+h4 {
+  font-family: FiraRegular, Helvetica, sans-serif;
+  color: #424F59;
+  font-size: 24px;
+}
+
+body {
+  font-family: ClearSans, Helvetica, sans-serif;
+  color: #424F59;
+}
+
+.tile {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  background-repeat: none;
+  margin-bottom: 20px;
+}
+
+.tile > a {
+  min-height: 180px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.link-favicon-circle {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: 1px 1px 1px #ddd;
+  border-radius: 100%;
+  padding: 3pt;
+  min-width: 24px;
+  min-height: 24px;
+  display: block;
+}
+.link-image {  
+  height: 72px;
+  background-position: center;
+  background-size: cover;
+}
+
+.link-favicon-square {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: 1px 1px 1px #ddd;
+  border-radius: 2px;
+  padding: 3pt;
+  min-width: 24px;
+  min-height: 24px;
+}
+.link-item {
+  margin: 8pt 0;
+}
+
+.media-text {
+  font-size: x-small;
+}
+
+.cat-item {
+  color: #333;
+  display: block;
+}
+
+.cat-item:hover {
+  text-decoration: none;
+}
+
+.cat-item:hover .media-heading {
+  text-decoration: underline;
+}
